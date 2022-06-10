@@ -40,6 +40,7 @@ const UseState = (props) => {
         value={name}
         onChange={(e) => setName(e.currentTarget.value)}
       />
+      <span className="text">{name}</span>
     </div>
   );
 };
